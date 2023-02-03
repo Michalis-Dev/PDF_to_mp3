@@ -1,6 +1,7 @@
 import pyttsx3, PyPDF2
 # μονο τοπικα στον pc
 # δεν δουλευει ακόμη
+#πρεπεί να δοκιμαστεί
 #insert name of your pdf
 pdfreader = PyPDF2.PdfFileReader(open('book.pdf', 'rb'))
 speaker = pyttsx3.init()
